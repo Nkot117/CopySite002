@@ -16,6 +16,7 @@ body {
 
 .main {
     display: flex;
+    justify-content: space-between;
 }
 
 .main>img {
@@ -24,6 +25,39 @@ body {
 }
 
 .contents {
-    /* margin-right: 5px; */
-    padding: 5%;
+    padding: 15px 5%;
+}
+
+.main-title {
+    font-size: 28px;
+}
+
+.sub-title {
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid gray;
+}
+
+.material-list {
+    margin-bottom: 40px;
+}
+
+.material-item {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px dotted gray;
+    padding: 3px;
+}
+
+.material-list dt {}
+
+.material-list dd {}
+
+.process-list {
+    padding-left: 20px;
+}
+
+.process {
+    padding: 3px;
+    border-bottom: 0.5px dotted gray;
 }
